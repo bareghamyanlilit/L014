@@ -27,13 +27,13 @@ export function Home() {
   const [openEnvelope, setOpenEnvelope] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
 
-  // useEffect(() => {
-  //   if (openEnvelope) {
-  //     setIsPlaying(true);
-  //   } else {
-  //     setIsPlaying(false);
-  //   }
-  // }, [openEnvelope]);
+  useEffect(() => {
+    if (openEnvelope) {
+      setIsPlaying(true);
+    } else {
+      setIsPlaying(false);
+    }
+  }, [openEnvelope]);
 
   return (
     <div className={`${openEnvelope ? "" : "relative h-dvh"}  text-center overflow-hidden  FontArTarumianBarakU `}>
