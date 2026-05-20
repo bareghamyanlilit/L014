@@ -37,19 +37,19 @@ export function Home() {
 
   return (
     <div className={`${openEnvelope ? "" : "relative h-dvh"}  text-center overflow-hidden  FontArTarumianBarakU `}>
-      <div className={` ${openEnvelope ? "animate-bounceYT" : ""} rounded-4xl absolute z-55 triangleT -top-[45%] left-1/2 -translate-x-1/2 bgC w-[85dvh] h-[85dvh] border border-guyn`}></div>
-      <div className={` ${openEnvelope ? "animate-bounceYB" : ""} rounded-4xl absolute z-53 triangleB -bottom-1/2 left-1/2 -translate-x-1/2 bgC w-dvh h-dvh border border-guyn`}></div>
-      <div className={` ${openEnvelope ? "animate-bounceXL" : ""} rounded-4xl absolute z-50 triangleL right-[80%] bgC w-dvh h-dvh border border-guyn`}></div>
-      <div className={` ${openEnvelope ? "animate-bounceXR" : ""} rounded-4xl absolute z-50 triangleR left-[80%] bgC w-dvh h-dvh border border-guyn`}></div>
+      <div className={` ${openEnvelope ? "animate-bounceYT" : ""} rounded-4xl absolute z-55 triangleT -top-[45%] left-1/2 -translate-x-1/2 bgC w-[85dvh] h-[85dvh] border border-white`}></div>
+      <div className={` ${openEnvelope ? "animate-bounceYB" : ""} rounded-4xl absolute z-53 triangleB -bottom-1/2 left-1/2 -translate-x-1/2 bgC w-dvh h-dvh border border-white`}></div>
+      <div className={` ${openEnvelope ? "animate-bounceXL" : ""} rounded-4xl absolute z-50 triangleL right-[80%] bgC w-dvh h-dvh border border-white`}></div>
+      <div className={` ${openEnvelope ? "animate-bounceXR" : ""} rounded-4xl absolute z-50 triangleR left-[80%] bgC w-dvh h-dvh border border-white`}></div>
       
-      <p className={` ${openEnvelope ? "opacity-0" : ""} z-60 absolute text-3xl top-20 text-vrayi font-bold left-1/2 -translate-x-1/2 `}>Հարսանեկան հրավիրատոմս</p>
-      <p className={` ${openEnvelope ? "opacity-0" : ""} z-60 absolute text-2xl bottom-20 text-vrayi font-bold left-1/2 -translate-x-1/2 `}>Սիրով <br />{firstname}</p>
+      <p className={` ${openEnvelope ? "opacity-0" : ""} z-60 absolute text-3xl top-20 text-white font-bold left-1/2 -translate-x-1/2 `}>Հարսանեկան հրավիրատոմս</p>
+      <p className={` ${openEnvelope ? "opacity-0" : ""} z-60 absolute text-2xl bottom-20 text-white font-bold left-1/2 -translate-x-1/2 `}>Սիրով <br />{firstname}</p>
       
       <img
         src={envelop[1]}
         alt="envelop"
         onClick={() => setOpenEnvelope(true)}
-        className={`${openEnvelope ? "opacity-0" : ""} transition-all duration-100  absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  cursor-pointer  md:w-50 md:h-50 z-60 w-30 h-30 `}
+        className={`${openEnvelope ? "opacity-0" : ""} grayscale-100 transition-all duration-100  absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  cursor-pointer  md:w-50 md:h-50 z-60 w-30 h-30 `}
       />
 
       {/* music button */}
