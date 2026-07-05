@@ -67,4 +67,4 @@ export const anim: any = {
 
 
 export const rsvp =
-  "";
+  "https://script.google.com/macros/s/AKfycbwpVw7U4i1Qo7WVmKgzStl2KQIE7B98_oUNT-a79rCiduawH-G6cnhPm04ERsYThwIX/exec";
