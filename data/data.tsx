@@ -34,7 +34,7 @@ export const firstname = ["Էդմոնդ և Կարինե"];
 export const name = ["ԷԴՄՈՆԴ", "ԿԱՐԻՆԵ"];
 export const date = "28/08/2026";
 
-export const dateTimeBox: any = new Date("2026-08-28T11:00:00");
+export const dateTimeBox: any = new Date("2027-08-28T11:00:00");
 
 export const calendar: any = [
   ["Ուրբաթ", "Շաբաթ", "Կիրակի"],
